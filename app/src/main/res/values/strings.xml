@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Tapegandofogo!</string>
+    <string name="errou">Errôu</string>
+    <string name="ninguem">Ninguém acertôu</string>
+    <string name="ovo">Você quebrou o meu ovo</string>
+    <string name="notify_title">Tem certeza amigão?</string>
+    <string name="notify_message">Você tem certeza que quer sair desse app maravilindo?</string>
+    <string name="eramelhormarretar">Sim</string>
+    <string name="eramelhormarretarmesmo">Não</string>
+    <string name="mensagemDoTouste">Ma ôeeeee!</string>
+    <string name="toast_button_title">Torrada</string>
+    <string name="title_activity_silvao">silvao</string>
+    <string name="next_button">nécst!</string>
+    <string name="nada">Esse botão não faz nada</string>
+    <string name="nada_mesmo">Nada mesmo</string>
+    <string name="text_silvao">Agora é o Silvão porra!</string>
+    <string name="botao_chrono_start">Inicia</string>
+    <string name="botao_chrono_stop">Para</string>
+    <string name="botao_chrono_zero">Zerôu!</string>
+    <string name="btSom01">Toca meu ovo</string>
+    <string name="plei">Play</string>
+    <string name="pause">Pause</string>
+</resources>
