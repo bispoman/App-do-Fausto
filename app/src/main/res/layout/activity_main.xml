@@ -17,11 +17,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="Putavida!"
         android:gravity="center"
+        android:text="Putavida!"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-    <com.synnapp1312s.carouselview.CarouselView
+    <com.synnapps.carouselview.CarouselView
         android:id="@+id/carouselView"
         android:layout_width="match_parent"
         android:layout_height="200dp"
@@ -39,8 +39,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/carouselView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"
         android:layout_marginBottom="8dp"
+        android:layout_marginTop="16dp"
         android:text="O botão aqui embaixo não faz nada"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
@@ -67,8 +67,8 @@
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Button"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:text="Button" />
 
         <Button
             android:id="@+id/button2"
@@ -85,24 +85,23 @@
             android:text="@string/toast_button_title" />
 
 
-
     </LinearLayout>
 
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/next_button"
-        android:layout_margin="8dp"
         android:layout_above="@+id/textView2"
-        android:layout_alignParentRight="true"/>
+        android:layout_alignParentRight="true"
+        android:layout_margin="8dp"
+        android:text="@string/next_button" />
 
     <ToggleButton
         android:id="@+id/toggleButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ToggleButton"
         android:layout_alignBaseline="@+id/button5"
         android:layout_alignBottom="@+id/button5"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:text="ToggleButton" />
 </RelativeLayout>

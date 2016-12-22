@@ -1,14 +1,10 @@
 package com.example.danielbispo.myapplication;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.Chronometer;
-import android.widget.TextView;
 
 public class DisplayMessageActivity extends AppCompatActivity {
 
@@ -32,7 +28,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
 
     }
 
-    void changeScreen(String soundSource){
+    void changeScreen(String soundSource) {
         Intent intent = new Intent(getApplicationContext(), com.example.danielbispo.myapplication.Player.class);
         intent.putExtra("sound", soundSource);
         startActivity(intent);

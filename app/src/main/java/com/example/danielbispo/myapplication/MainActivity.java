@@ -3,9 +3,9 @@ package com.example.danielbispo.myapplication;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.media.MediaPlayer;
+import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CompoundButton;
@@ -15,8 +15,6 @@ import android.widget.Toast;
 import android.widget.ToggleButton;
 
 import com.bumptech.glide.Glide;
-import com.example.danielbispo.myapplication.R;
-import com.google.firebase.database.DatabaseReference;
 import com.synnapps.carouselview.CarouselView;
 import com.synnapps.carouselview.ImageListener;
 
@@ -55,16 +53,16 @@ public class MainActivity extends AppCompatActivity {
         intent = new Intent(getApplicationContext(), com.example.danielbispo.myapplication.DisplayMessageActivity.class);
 
         b3.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick (View view){
-                if (counter2 == 2){
+            @Override
+            public void onClick(View view) {
+                if (counter2 == 2) {
                     mpning.start();
                     counter2 = 0;
-                }else {
+                } else {
                     mp.start();
                     counter2++;
                 }
-                }
+            }
         });
 
         b2.setOnClickListener(new View.OnClickListener() {
@@ -89,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
         b4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(view.getContext(), getText(R.string.mensagemDoTouste), Toast.LENGTH_SHORT ).show();
+                Toast.makeText(view.getContext(), getText(R.string.mensagemDoTouste), Toast.LENGTH_SHORT).show();
             }
         });
 
