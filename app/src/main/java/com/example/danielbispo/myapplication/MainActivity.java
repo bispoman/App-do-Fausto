@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
     Button b4;
     Button b6;
     Button b7;
+    MediaPlayer mp;
     MediaPlayer mpovo;
     MediaPlayer mpning;
     Intent intent;
@@ -48,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         b4 = (Button) findViewById(R.id.button4);
         b6 = (Button) findViewById(R.id.button3);
         b7 = (Button) findViewById(R.id.button5);
-        final MediaPlayer mp = MediaPlayer.create(this, R.raw.faustaoerou);
+        mp = MediaPlayer.create(this, R.raw.faustaoerou);
         mpovo = MediaPlayer.create(this, R.raw.meuovo);
         mpning = MediaPlayer.create(this, R.raw.ninguemacertou);
         intent = new Intent(getApplicationContext(), com.example.danielbispo.myapplication.DisplayMessageActivity.class);
